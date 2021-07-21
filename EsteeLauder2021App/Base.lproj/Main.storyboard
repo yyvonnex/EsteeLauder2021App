@@ -113,6 +113,20 @@
                                 <rect key="frame" x="-182" y="649" width="795" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtH-9d-5mu">
+                                <rect key="frame" x="273" y="527" width="8" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pw0-aJ-hXJ">
+                                <rect key="frame" x="306" y="527" width="8" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.98082316290000005" green="0.84193154839999995" blue="0.85395592539999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -287,7 +301,7 @@ Add a little more to build it as a full coverage foundation.</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qrD-kI-icJ"/>
+        <segue reference="hw5-ex-hpS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="2000" height="1600"/>
