@@ -9,15 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var descriptionInfo: UILabel!
+    @IBOutlet weak var mainInfo: UILabel!
+    @IBOutlet weak var longImage: UIImageView!
+    
     @IBAction func quizButton(_ sender: UIButton) {
+    //    performSegue(withIdentifier: "Show", sender: nil)
     }
-    @IBOutlet weak var coloursButton: UIButton!
-    @IBAction func coloursButton(_ sender: UIButton) {
-        coloursButton.isHidden = false
+   
+    @IBAction func productDetails(_ sender: UIButton) {
+        mainInfo.isHidden = false
+        descriptionInfo.isHidden = false
+        longImage.isHidden = true
     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        coloursButton.isHidden = true
+        mainInfo.isHidden = true
+        descriptionInfo.isHidden = true
+        longImage.isHidden = false
     }
 
 
